@@ -40,6 +40,7 @@ document.querySelector('#c').addEventListener('click',() =>
     setTimeout(display,400)
     document.querySelector('#restart').style.pointerEvents = "auto";
     document.querySelector('#restart').style.opacity = "1";
+        document.querySelector('#input').style.pointerEvents = "none";
     
     })
 
