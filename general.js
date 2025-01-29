@@ -64,7 +64,7 @@ function display()
 
 
 
-if(RED.includes(2))
+if(RED.includes(1))
 {
     document.querySelector('.box1').classList.add('box1red');
     console.log('red');
