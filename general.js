@@ -335,6 +335,7 @@ if(RED.includes(22))
 }else{
     document.querySelector('.box22').classList.add('green');
     console.log('green');
+}
 
 
 
@@ -423,6 +424,6 @@ if(RED.includes(20))
 
 
 
-}
+
 
 
