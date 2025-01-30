@@ -423,6 +423,15 @@ if(RED.includes(20))
 
 
 
+function noevent(name)
+{
+    document.querySelector(`#${name}`).style.cursor = "not-allowed"
+document.querySelector(`#${name}`).style.pointerEvents = "none";
+
+}
+
+
+
 
 
 
